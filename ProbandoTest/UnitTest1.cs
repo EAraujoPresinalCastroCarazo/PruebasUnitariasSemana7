@@ -20,7 +20,6 @@ namespace ProbandoTest
             //Act
             int actual = clsCalculadora.Suma(a, b);
             Assert.AreEqual(esperado, actual);
-
         }
 
         [DataRow(4, 4, 0)]
